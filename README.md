@@ -38,47 +38,47 @@ Note the `libmy_module.so` binary file's absolutely path.
 3. Modify the `links` part
     a. if you are using the BLE sample, modify the `links` part
 
-        from:
+      from:
 
-        ```json
-        {
-            "source": "SensorTag",
-            "sink": "mapping"
-        }
-        ```
+      ```json
+      {
+          "source": "SensorTag",
+          "sink": "mapping"
+      }
+      ```
 
-        to:
+      to:
 
-        ```json
-        {
-            "source": "SensorTag",
-            "sink": "MyModule"
-        },
-        {
-            "source": "MyModule",
-            "sink": "mapping"
-        }
-        ```
+      ```json
+      {
+          "source": "SensorTag",
+          "sink": "MyModule"
+      },
+      {
+          "source": "MyModule",
+          "sink": "mapping"
+      }
+      ```
     b. if you are using the simulated_device_cloud_upload sample, modify the `links` part
 
-        from:
+      from:
 
-        ```json
-        {
-            "source": "BLE",
-            "sink": "mapping"
-        }
-        ```
+      ```json
+      {
+          "source": "BLE",
+          "sink": "mapping"
+      }
+      ```
 
-        to:
+      to:
 
-        ```json
-        {
-            "source": "BLE",
-            "sink": "MyModule"
-        },
-        {
-            "source": "MyModule",
-            "sink": "mapping"
-        }
-        ```
+      ```json
+      {
+          "source": "BLE",
+          "sink": "MyModule"
+      },
+      {
+          "source": "MyModule",
+          "sink": "mapping"
+      }
+      ```
