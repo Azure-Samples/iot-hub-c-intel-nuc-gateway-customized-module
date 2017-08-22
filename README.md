@@ -1,3 +1,9 @@
+---
+services: iot-hub
+platforms: c
+author: xshi
+---
+
 # azure iot gateway ble data convertor module
 
 This is a native module written in C programming language, which can be loaded by the Azure IoT Gateway SDK.
