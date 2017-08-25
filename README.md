@@ -1,7 +1,7 @@
 ---
 services: iot-hub
 platforms: c
-author: xshi
+author: shizn
 ---
 
 # azure iot gateway ble data convertor module
